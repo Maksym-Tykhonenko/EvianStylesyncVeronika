@@ -316,7 +316,7 @@ const App = () => {
       // OneSignal ініціалізація
       OneSignal.initialize('5b82431f-6ff7-4ca4-a371-489e23133f61');
       //OneSignal.Debug.setLogLevel(OneSignal.LogLevel.Verbose);
-
+//
       // event push_open_browser & push_open_webview
       const pushOpenWebViewOnce = useRef(false); // Стан, щоб уникнути дублювання
 
